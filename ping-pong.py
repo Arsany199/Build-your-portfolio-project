@@ -1,3 +1,4 @@
+# library to make objects
 import turtle
 
 # Set up the screen
@@ -7,7 +8,7 @@ wn.bgcolor("black")
 wn.setup(width=800, height=400)
 wn.tracer(0)
 
-# Paddle A
+# set Paddle A
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
 paddle_a.shape("square")
@@ -16,7 +17,7 @@ paddle_a.shapesize(stretch_wid=6, stretch_len=1)
 paddle_a.penup()
 paddle_a.goto(-250, 0)
 
-# Paddle B
+# set Paddle B
 paddle_b = turtle.Turtle()
 paddle_b.speed(0)
 paddle_b.shape("square")
@@ -25,7 +26,7 @@ paddle_b.shapesize(stretch_wid=6, stretch_len=1)
 paddle_b.penup()
 paddle_b.goto(250, 0)
 
-# Ball
+# set the Ball
 ball = turtle.Turtle()
 ball.speed(0)
 ball.shape("circle")
